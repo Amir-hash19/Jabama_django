@@ -4,5 +4,5 @@ from .views import villa_letter
 
 
 urlpatterns = [
-    path('villa-page', villa_letter),
+    path('villa-page-hello', villa_letter),
 ]
