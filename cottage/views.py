@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+
+def cottage_letter(request):
+    return HttpResponse ("this is cottage page!")
